@@ -1,4 +1,4 @@
-﻿@* ReSharper disable ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract *@
+@* ReSharper disable ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract *@
 @* ReSharper disable CSharpWarnings::CS8618 *@
 @* ReSharper disable ConditionalAccessQualifierIsNonNullableAccordingToAPIContract *@
 
@@ -39,6 +39,11 @@ else
 
   protected override async Task OnInitializedAsync()
   {
+    await FetchWeatherData();
+  }
+
+  private async Task FetchWeatherData()
+  {
     try
     {
       _weather = await WeatherService.GetWeatherAsync();
@@ -51,6 +56,8 @@ else
       {
         _weather.WeatherCondition = "Unknown";
       }
+
+      StateHasChanged();
     }
     catch (Exception ex)
     {

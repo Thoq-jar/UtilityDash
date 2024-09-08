@@ -30,3 +30,4 @@
 /Users/tristanshaw/c#/Dashboard/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/Dashboard.csproj.AssemblyReference.cache
 /Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/Dashboard.csproj.CopyComplete
+/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/Dashboard.sourcelink.json
