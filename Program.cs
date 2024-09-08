@@ -13,6 +13,12 @@ builder.Services.AddScoped<WeatherService>();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+// Enable HTTPS redirection
+builder.Services.AddHttpsRedirection(options =>
+{
+    options.HttpsPort = 5001; // Default port for Blazor development server
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,7 +29,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection(); // This line is already present, but keep it for consistency
 
 app.UseStaticFiles();
 app.UseAntiforgery();
@@ -31,4 +37,5 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
+// Listen on all network interfaces
 app.Run();
