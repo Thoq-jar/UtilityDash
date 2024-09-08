@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/scopedcss/projectbundle/Dashboard.bundle.scp.css",
+      "Id": "/home/tristan/UtilityDash/obj/Debug/net8.0/scopedcss/projectbundle/Dashboard.bundle.scp.css",
       "PackagePath": "staticwebassets/Dashboard.bundle.scp.css"
     },
     {
-      "Id": "/Users/tristanshaw/c#/Dashboard/wwwroot/app.css",
+      "Id": "/home/tristan/UtilityDash/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/tristanshaw/c#/Dashboard/wwwroot/bootstrap/bootstrap.min.css",
+      "Id": "/home/tristan/UtilityDash/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/Users/tristanshaw/c#/Dashboard/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Id": "/home/tristan/UtilityDash/wwwroot/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/tristanshaw/c#/Dashboard/wwwroot/favicon.png",
+      "Id": "/home/tristan/UtilityDash/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
