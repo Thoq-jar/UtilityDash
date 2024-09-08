@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0yvnxzLMmZ0r/281XLW43tlUodLhHDggfzYtIPPGnD4=",
+  "Hash": "tGwXOwQSbkea3MhM5gT1c0/ASRWDT5dSs0cEGk24ELI=",
   "Source": "Dashboard",
   "BasePath": "_content/Dashboard",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Dashboard/wwwroot",
       "Source": "Dashboard",
-      "ContentRoot": "/home/tristan/UtilityDash/wwwroot/",
+      "ContentRoot": "/Users/tristanshaw/c#/Dashboard/wwwroot/",
       "BasePath": "_content/Dashboard",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/tristan/UtilityDash/obj/Debug/net8.0/scopedcss/bundle/Dashboard.styles.css",
+      "Identity": "/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/scopedcss/bundle/Dashboard.styles.css",
       "SourceId": "Dashboard",
       "SourceType": "Computed",
-      "ContentRoot": "/home/tristan/UtilityDash/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/Dashboard",
       "RelativePath": "Dashboard.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/tristan/UtilityDash/obj/Debug/net8.0/scopedcss/bundle/Dashboard.styles.css"
+      "OriginalItemSpec": "/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/scopedcss/bundle/Dashboard.styles.css"
     },
     {
-      "Identity": "/home/tristan/UtilityDash/obj/Debug/net8.0/scopedcss/projectbundle/Dashboard.bundle.scp.css",
+      "Identity": "/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/scopedcss/projectbundle/Dashboard.bundle.scp.css",
       "SourceId": "Dashboard",
       "SourceType": "Computed",
-      "ContentRoot": "/home/tristan/UtilityDash/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/Dashboard",
       "RelativePath": "Dashboard.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/tristan/UtilityDash/obj/Debug/net8.0/scopedcss/projectbundle/Dashboard.bundle.scp.css"
+      "OriginalItemSpec": "/Users/tristanshaw/c#/Dashboard/obj/Debug/net8.0/scopedcss/projectbundle/Dashboard.bundle.scp.css"
     },
     {
-      "Identity": "/home/tristan/UtilityDash/wwwroot/app.css",
+      "Identity": "/Users/tristanshaw/c#/Dashboard/wwwroot/app.css",
       "SourceId": "Dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/tristan/UtilityDash/wwwroot/",
+      "ContentRoot": "/Users/tristanshaw/c#/Dashboard/wwwroot/",
       "BasePath": "_content/Dashboard",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/home/tristan/UtilityDash/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/tristanshaw/c#/Dashboard/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "Dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/tristan/UtilityDash/wwwroot/",
+      "ContentRoot": "/Users/tristanshaw/c#/Dashboard/wwwroot/",
       "BasePath": "_content/Dashboard",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/home/tristan/UtilityDash/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/tristanshaw/c#/Dashboard/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "Dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/tristan/UtilityDash/wwwroot/",
+      "ContentRoot": "/Users/tristanshaw/c#/Dashboard/wwwroot/",
       "BasePath": "_content/Dashboard",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/tristan/UtilityDash/wwwroot/favicon.png",
+      "Identity": "/Users/tristanshaw/c#/Dashboard/wwwroot/favicon.png",
       "SourceId": "Dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/tristan/UtilityDash/wwwroot/",
+      "ContentRoot": "/Users/tristanshaw/c#/Dashboard/wwwroot/",
       "BasePath": "_content/Dashboard",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

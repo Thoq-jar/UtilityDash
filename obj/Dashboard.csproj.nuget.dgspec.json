@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/tristan/UtilityDash/Dashboard.csproj": {}
+    "/Users/tristanshaw/c#/Dashboard/Dashboard.csproj": {}
   },
   "projects": {
-    "/home/tristan/UtilityDash/Dashboard.csproj": {
+    "/Users/tristanshaw/c#/Dashboard/Dashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tristan/UtilityDash/Dashboard.csproj",
+        "projectUniqueName": "/Users/tristanshaw/c#/Dashboard/Dashboard.csproj",
         "projectName": "Dashboard",
-        "projectPath": "/home/tristan/UtilityDash/Dashboard.csproj",
-        "packagesPath": "/home/tristan/.nuget/packages/",
-        "outputPath": "/home/tristan/UtilityDash/obj/",
+        "projectPath": "/Users/tristanshaw/c#/Dashboard/Dashboard.csproj",
+        "packagesPath": "/Users/tristanshaw/.nuget/packages/",
+        "outputPath": "/Users/tristanshaw/c#/Dashboard/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/tristan/.nuget/NuGet/NuGet.Config"
+          "/Users/tristanshaw/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/tristan/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
