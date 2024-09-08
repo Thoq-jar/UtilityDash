@@ -1,0 +1,67 @@
+﻿@* ReSharper disable ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract *@
+@* ReSharper disable CSharpWarnings::CS8618 *@
+@* ReSharper disable ConditionalAccessQualifierIsNonNullableAccordingToAPIContract *@
+
+@page "/weather"
+@using Dashboard.Models
+@using Dashboard.Services
+@inject WeatherService WeatherService
+
+<PageTitle>Weather</PageTitle>
+
+<h1 style="display: flex; align-items: center;">
+  Weather
+  @if (!string.IsNullOrWhiteSpace(_weather?.IconUrl))
+  {
+    <img src="@_weather.IconUrl" alt="Weather icon" style="width: 60px; height: 60px; margin-left: 10px;"/>
+  }
+</h1>
+
+@if (_weather == null)
+{
+  <p>
+    <em>Loading...</em>
+  </p>
+}
+else
+{
+  <p><strong>Temperature:</strong> @_weather.Temperature °F</p>
+  <p><strong>Humidity:</strong> @_weather.Humidity %</p>
+  <p>
+    <strong>Condition:</strong> @_weather.WeatherCondition
+  </p>
+  <p><strong>Wind Speed:</strong> @_weather.WindSpeed mph</p>
+  <p><strong>Latitude:</strong> (@_weather.Latitude)<strong> Longitude:</strong> (@_weather.Longitude)</p>
+}
+
+@code {
+  private WeatherData _weather;
+
+  protected override async Task OnInitializedAsync()
+  {
+    try
+    {
+      _weather = await WeatherService.GetWeatherAsync();
+      if (_weather.Humidity is < 0 or > 100)
+      {
+        _weather.Humidity = double.NaN;
+      }
+
+      if (string.IsNullOrWhiteSpace(_weather.WeatherCondition))
+      {
+        _weather.WeatherCondition = "Unknown";
+      }
+    }
+    catch (Exception ex)
+    {
+      Console.WriteLine($"An error occurred: {ex.Message}");
+      _weather = new WeatherData
+      {
+        Temperature = 0,
+        Humidity = 0,
+        WeatherCondition = "Unknown"
+      };
+    }
+  }
+
+}
